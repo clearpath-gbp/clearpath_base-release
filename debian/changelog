@@ -1,0 +1,32 @@
+ros-hydro-clearpath-base (0.4.2-0precise) precise; urgency=high
+
+  * Switch to an explicit GLOB for building messages, as the implicit one is broken for the build target.
+  * Remove build dependency on rospy.
+
+ -- Alex Bencz <abencz@clearpathrobotics.com>  Wed, 11 Sep 2013 04:00:00 -0000
+
+ros-hydro-clearpath-base (0.4.1-0precise) precise; urgency=high
+
+  * No change, just re-releasing due to version mixup on build farm.
+
+ -- Alex Bencz <abencz@clearpathrobotics.com>  Tue, 10 Sep 2013 04:00:00 -0000
+
+ros-hydro-clearpath-base (0.4.0-0precise) precise; urgency=high
+
+  * Removed most of the unneeded messages.
+  * Moved node scripts into /nodes directory.
+  * Moved node bases into clearpath_node library.
+  * Node scripts now kinematic.py -> kinematic_node, etc.
+  * install targets.
+
+ -- Alex Bencz <abencz@clearpathrobotics.com>  Tue, 10 Sep 2013 04:00:00 -0000
+
+ros-hydro-clearpath-base (0.3.1-0precise) precise; urgency=high
+
+  * Added missing build_depend to clearpath_base
+  * Fixed broken rosdep.
+  * Bumped version to 0.3.0
+
+ -- Alex Bencz <abencz@clearpathrobotics.com>  Fri, 19 Jul 2013 04:00:00 -0000
+
+
