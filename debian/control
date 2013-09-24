@@ -1,0 +1,12 @@
+Source: ros-hydro-clearpath-base
+Section: misc
+Priority: extra
+Maintainer: Alex Bencz <abencz@clearpathrobotics.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin (>= 0.5.74), ros-hydro-genmsg (>= 0.4.23), ros-hydro-geometry-msgs, ros-hydro-message-generation, ros-hydro-std-msgs
+Homepage: http://ros.org/wiki/clearpath_base
+Standards-Version: 3.9.2
+
+Package: ros-hydro-clearpath-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, pkg-config, python-serial, ros-hydro-geometry-msgs, ros-hydro-message-runtime, ros-hydro-rospy, ros-hydro-std-msgs
+Description: Serial interface for Clearpath Robotics Husky.
